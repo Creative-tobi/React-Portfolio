@@ -12,14 +12,10 @@ const Navbar = () => {
             backgroundColor: "rgba(221, 221, 221, 0.1)",
           }}>
           <ul className="flex justify-around">
-            <li>about</li>
-            <li>resume</li>
-            <li>about</li>
-            <li>resume</li>
-            {/* <li><Link to="/">About</Link></li>
-                    <li><Link to="/Resume">Resume</Link></li>
+            <li><Link to="/">About</Link></li>
+                    <li><Link to="Resume">Resume</Link></li>
                     <li><Link to="Portfolio">Portfolio</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li> */}
+                    <li><Link to="Contact">Contact</Link></li>
           </ul>
         </nav>
       </header>
