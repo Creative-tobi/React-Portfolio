@@ -1,0 +1,27 @@
+#back{
+    background-color:rgba(126, 126, 126, 0.3);
+}
+#icon{
+    /* border: 1px solid;
+    border-image: linear-gradient(left to right, rgb(255, 187, 0, 0.3), rgba(221, 221, 221, 0.3)); */
+    padding: 4px;
+    margin: 6px;
+    background-color: rgba(221, 221, 221, 0.1);
+    /* box-shadow: 0 0 4px 0 rgba(255, 187, 0, 0.2); */
+    box-shadow: 2px 2px 4px #292828, -2px -2px 4px rgba(252, 247, 235, 0.2);
+}
+.box{
+    padding: 6px;
+    background-color: rgba(59, 59, 59); 
+    border-radius: 60px;
+    margin-right: 6px;
+}
+#ico{
+       background-color: rgba(221, 221, 221, 0.1);
+    /* box-shadow: 0 0 4px 0 rgba(255, 187, 0, 0.2); */
+    box-shadow: 2px 2px 4px #292828, -2px -2px 4px rgba(252, 247, 235, 0.2);
+}
+/* .line{
+     border-image: linear-gradient(left to right, rgb(255, 187, 0), rgb(221, 221, 221)); 
+      border: 3px solid ; 
+} */
