@@ -14,7 +14,7 @@ const Navbar = () => {
           }}>
           <ul className="flex justify-around">
             <li><Link to="/">About</Link></li>
-                    <li><Link to="Resume">Resume</Link></li>
+                    <li><Link to="Resume" >Resume</Link></li>
                     <li><Link to="Portfolio">Portfolio</Link></li>
                     <li><Link to="Contact">Contact</Link></li>
           </ul>

@@ -10,7 +10,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 const Aside = () => {
   return (
     <> <a href="#">
-      <div id='ico' style={{borderRadius: "0 12px 0 12px"}} className='absolute right-10 p-2 lg:hidden'>
+      <div id='ico' style={{borderRadius: "0 12px 0 12px"}} className='absolute right-10 p-2 lg:hidden hover:bg-gradient-to-r from-amber-300 to-zinc-800'>
         <p className='text-amber-200'>Show Contacts</p>
       </div>
     </a>
