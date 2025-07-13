@@ -1,4 +1,5 @@
 import React from 'react'
+import "../components/comp.css";
 
 const Resume = () => {
   return (

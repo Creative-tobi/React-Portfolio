@@ -1,3 +1,7 @@
+body::selection{
+     /* color: rgba(255, 187, 0); */
+     background-color: rgba(255, 187, 0);
+}
 #back{
     background-color:rgba(126, 126, 126, 0.3);
 }
@@ -21,7 +25,21 @@
     /* box-shadow: 0 0 4px 0 rgba(255, 187, 0, 0.2); */
     box-shadow: 2px 2px 4px #292828, -2px -2px 4px rgba(252, 247, 235, 0.2);
 }
-/* .line{
-     border-image: linear-gradient(left to right, rgb(255, 187, 0), rgb(221, 221, 221)); 
-      border: 3px solid ; 
+
+
+ /* li:focus{
+    color: rgba(255, 187, 0);
+    font-weight: 500;
+    touch-action: pan-x;
 } */
+li:active{
+    color: rgba(255, 187, 0);
+    font-weight: 500;
+    touch-action: pan-x;
+}
+li:target{
+     color: rgba(255, 187, 0);
+    font-weight: 500;   
+}
+
+
