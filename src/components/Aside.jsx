@@ -9,7 +9,12 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Aside = () => {
   return (
-    <>
+    <> <a href="#">
+      <div id='ico' style={{borderRadius: "0 12px 0 12px"}} className='absolute right-10 p-2 lg:hidden'>
+        <p className='text-amber-200'>Show Contacts</p>
+      </div>
+    </a>
+
       <div
         className="lg:hidden flex p-8 m-10 rounded-xl border-1 border-amber-200"
         style={{
@@ -20,11 +25,11 @@ const Aside = () => {
           <img src={profile} alt="" className="w-30  rounded-xl" id="back" />
         </div>{" "}
         <br />
-        <div className='ml-6'>
-        <h1 className="font-bold text-xl mb-4">Adeoye Aishat</h1>
-        <p className="rounded-lg p-1 w-40 text-center" id="back">
-          Web Developer
-        </p>{" "}
+        <div className="ml-6">
+          <h1 className="font-bold text-xl mb-4">Adeoye Aishat</h1>
+          <p className="rounded-lg p-1 w-40 text-center" id="back">
+            Web Developer
+          </p>{" "}
         </div>
         <br />
       </div>
@@ -48,11 +53,11 @@ const Aside = () => {
         <hr className="w-60" /> <br />
         <div>
           <div className="flex">
-            <div className='box'>
-            <MdOutlineMail
-              className="text-amber-200 text-3xl rounded-md"
-              id="icon"
-            />
+            <div className="box">
+              <MdOutlineMail
+                className="text-amber-200 text-3xl rounded-md"
+                id="icon"
+              />
             </div>
             <div>
               <p className="text-gray-400">EMAIL</p>
@@ -74,11 +79,11 @@ const Aside = () => {
           </div>{" "}
           <br />
           <div className="flex">
-            <div className='box'>
-            <CiLocationOn
-              className="text-amber-200 text-3xl rounded-md"
-              id="icon"
-            />
+            <div className="box">
+              <CiLocationOn
+                className="text-amber-200 text-3xl rounded-md"
+                id="icon"
+              />
             </div>
             <div>
               <p className="text-gray-400">LOCATION</p>

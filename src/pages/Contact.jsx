@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../components/comp.css";
 import Buttons from '../components/Buttons';
+import Pictures from '../components/Pictures';
 
 const Contact = () => {
 
@@ -24,10 +25,8 @@ const Contact = () => {
           <hr className="border-4 rounded-md border-amber-200 w-8" /> <br />
         </div>{" "}
         <br />
-        <div>
-          <h1>Map will be here</h1>
-
-          
+        <div className="border-1 border-amber-200 rounded-md">
+          <Pictures />
         </div>{" "}
         <br />
         <div>
@@ -56,7 +55,7 @@ const Contact = () => {
               onChange={(e) => setMsg(e.target.value)}
               className="border-1 border-amber-100 p-2 rounded-lg px-4 w-[100%] mb-6"></textarea>{" "}
             <br />
-            <a href="/" onClick={handleSubmit}>
+            <a href="#" onClick={handleSubmit}>
               <Buttons />
             </a>
           </form>
