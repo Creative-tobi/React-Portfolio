@@ -37,14 +37,14 @@ const Contact = () => {
               type="name"
               placeholder="Full name"
               onChange={(e) => setName(e.target.value)}
-              className="border-1 border-amber-100 p-2 rounded-lg mr-2 w-[49%]"
+              className="border-1 border-amber-100 p-2 rounded-lg mr-2 lg:w-[49%] w-[100%]"
             />
             <input
               value={email}
               type="email"
               placeholder="Email address"
               onChange={(e) => setEmail(e.target.value)}
-              className="border-1 border-amber-100 p-2 rounded-lg mb-4 w-[49%]"
+              className="border-1 border-amber-100 p-2 rounded-lg mb-4 lg:w-[49%] w-[100%]"
             />{" "}
             <br />
             <textarea
