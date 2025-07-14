@@ -64,7 +64,7 @@ const Resume = () => {
                 <span className="text-gray-200 font-normal">50%</span>
               </p>
               <div className="w-[90%] rounded-md bg-gray-400">
-                <div className="w-55 rounded-md bg-amber-200 p-1"></div>
+                <div className="lg:w-55 w-30 rounded-md bg-amber-200 p-1"></div>
               </div>{" "}
               <br />
               <div>
@@ -74,7 +74,7 @@ const Resume = () => {
                 </p>
 
                 <div className="w-[90%] rounded-md bg-gray-400">
-                  <div className="w-40 rounded-md bg-amber-200 p-1"></div>
+                  <div className="lg:w-40 w-20 rounded-md bg-amber-200 p-1"></div>
                 </div>
               </div>{" "}
               <br />
@@ -85,7 +85,7 @@ const Resume = () => {
                 </p>
 
                 <div className="w-[90%] rounded-md bg-gray-400">
-                  <div className="w-40 rounded-md bg-amber-200 p-1"></div>
+                  <div className="lg:w-40 w-20 rounded-md bg-amber-200 p-1"></div>
                 </div>
               </div>{" "}
               <br />
