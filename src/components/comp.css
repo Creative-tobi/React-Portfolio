@@ -32,7 +32,7 @@ body::selection{
     font-weight: 500;
     touch-action: pan-x;
 } */
-li:active{
+/* li:active{
     color: rgba(255, 187, 0);
     font-weight: 500;
     touch-action: pan-x;
@@ -40,6 +40,6 @@ li:active{
 li:target{
      color: rgba(255, 187, 0);
     font-weight: 500;   
-}
+} */
 
 

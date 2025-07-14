@@ -25,7 +25,7 @@ const Contact = () => {
           <hr className="border-4 rounded-md border-amber-200 w-8" /> <br />
         </div>{" "}
         <br />
-        <div className="border-1 border-amber-200 rounded-md">
+        <div className="">
           <Pictures />
         </div>{" "}
         <br />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import profile from "/perfect.png"
 import "./comp.css"
 import { MdOutlineMail } from 'react-icons/md';
@@ -10,6 +10,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 // const [isOpen, setIsOpen] = useState(false);
 
 const Aside = () => {
+  const[isOpen, setIsOpen] = useState(false);
   return (
     <>
       {" "}
