@@ -104,7 +104,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="w-[100%] rounded-md bg-gray-400 ml-[20%]">
+          <div className="w-[100%] rounded-md bg-gray-400">
             <div className="lg:w-40 w-30 rounded-md bg-amber-200 p-1"></div>
           </div>
         </div>{" "}
@@ -112,7 +112,7 @@ const About = () => {
         <div>
           <h1 className="text-2xl font-bold">Clients</h1>
           <div className='flex'></div>
-          <div className="w-[100%] rounded-md bg-gray-400 ml-[20%]">
+          <div className="w-[100%] rounded-md bg-gray-400">
             <div className="lg:w-55 w-35 rounded-md bg-amber-200 p-1"></div>
           </div>
         </div>
