@@ -7,14 +7,20 @@ import { CiLocationOn } from 'react-icons/ci';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
+// const [isOpen, setIsOpen] = useState(false);
+
 const Aside = () => {
   return (
-    <> <a href="#">
-      <div id='ico' style={{borderRadius: "0 12px 0 12px"}} className='absolute right-10 p-2 lg:hidden hover:bg-gradient-to-r from-amber-300 to-zinc-800'>
-        <p className='text-amber-200'>Show Contacts</p>
-      </div>
-    </a>
-
+    <>
+      {" "}
+      <a href="#" onClick={() => setIsOpen(!isOpen)}>
+        <div
+          id="ico"
+          style={{ borderRadius: "0 12px 0 12px" }}
+          className="absolute right-10 p-2 lg:hidden hover:bg-gradient-to-r from-amber-300 to-zinc-800">
+          <p className="text-amber-200">Show Contacts</p>
+        </div>
+      </a>
       <div
         className="lg:hidden flex p-8 m-10 rounded-xl border-1 border-amber-200"
         style={{
@@ -33,6 +39,9 @@ const Aside = () => {
         </div>
         <br />
       </div>
+
+        
+
       <aside
         className="hidden lg:block p-14 fixed mx-10 top-10 h-152 rounded-xl border-1 border-amber-200"
         style={{

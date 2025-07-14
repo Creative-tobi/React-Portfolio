@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../components/comp.css";
 
 const Navbar = () => {
@@ -7,17 +7,45 @@ const Navbar = () => {
     <>
       <header>
         <nav
-          className="p-4 fixed  lg:sticky lg:ml-130  bottom-0 sm:m-10 h-15 rounded-xl lg:top-20 backdrop-blur border-1 border-amber-200 lg:w-[50%] w-[100%]"
+          className="p-4 fixed  lg:sticky lg:ml-130  bottom-0 mt-10 h-15 rounded-xl lg:top-20 backdrop-blur border-1 border-amber-200 lg:w-[50%] w-[100%]"
           style={{
             // borderRadius: "0 20px 0 20px",
             backgroundColor: "rgba(221, 221, 221, 0.1)",
           }}>
-          <ul className="flex justify-around">
-            <li><Link to="/">About</Link></li>
-                    <li><Link to="Resume" >Resume</Link></li>
-                    <li><Link to="Portfolio">Portfolio</Link></li>
-                    <li><Link to="Contact">Contact</Link></li>
+          <ul className="flex justify-around">    
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-amber-200 font-bold" : "text-white"
+            }>
+            About
+          </NavLink>
+
+          <NavLink
+            to="Resume"
+            className={({ isActive }) =>
+              isActive ? "text-amber-200 font-bold" : "text-white"
+            }>
+            Resume
+          </NavLink>
+
+          <NavLink
+            to="Portfolio"
+            className={({ isActive }) =>
+              isActive ? "text-amber-200 font-bold" : "text-white"
+            }>
+            Portfolio
+          </NavLink>
+
+          <NavLink
+            to="Contact"
+            className={({ isActive }) =>
+              isActive ? "text-amber-200 font-bold" : "text-white"
+            }>
+            Contact
+          </NavLink>
           </ul>
+
         </nav>
       </header>
     </>
