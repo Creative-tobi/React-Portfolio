@@ -27,19 +27,10 @@ body::selection{
 }
 
 
- /* li:focus{
-    color: rgba(255, 187, 0);
-    font-weight: 500;
-    touch-action: pan-x;
-} */
-/* li:active{
-    color: rgba(255, 187, 0);
-    font-weight: 500;
-    touch-action: pan-x;
-}
-li:target{
-     color: rgba(255, 187, 0);
-    font-weight: 500;   
-} */
+ @media (width: 400) {
+    iframe{
+        width: 300px;
+    }
+ }
 
 

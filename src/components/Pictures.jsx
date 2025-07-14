@@ -1,5 +1,6 @@
 import React from "react";
 import myMap from "/map.JPG";
+import "../components/comp.css";
 
 const Pictures = () => {
   return (
